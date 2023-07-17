@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url("/images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: "Red Hat Display", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+}
+
+/*======
+
+Main Code
+
+=======*/
+main {
+  margin-top: 5%;
+  width: 36rem;
+}
+main .container {
+  background-color: white;
+  border-radius: 1.5rem;
+  box-shadow: 0px 15px 20px hsla(233, 57%, 82%, 0.542);
+}
+main .container .main-image {
+  width: 100%;
+  border-radius: 1.5rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+main .container .main-text ul li {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .container .main-text ul li h1 {
+  padding-top: 2rem;
+  font-size: 2.25rem;
+  font-weight: 900;
+  margin-top: 1.3rem;
+  color: hsl(223, 47%, 23%);
+}
+main .container .main-text ul li p {
+  padding: 1.3rem 5rem;
+  font-size: 1.32rem;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  line-height: 2.1rem;
+}
+main .container .main-text ul li .music-container {
+  width: 78%;
+  height: 8rem;
+  margin: 0 auto;
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 1rem;
+}
+main .container .main-text ul li .music-container .price-image {
+  margin-left: 1.8rem;
+  display: flex;
+  align-items: center;
+}
+main .container .main-text ul li .music-container .price-image .price {
+  padding: 1.8rem 1rem 1.8rem 1.8rem;
+}
+main .container .main-text ul li .music-container .price-image .price h4 {
+  padding-bottom: 0.4rem;
+  font-size: 1.35rem;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+main .container .main-text ul li .music-container .price-image .price h5 {
+  color: hsl(224, 23%, 55%);
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+main .container .main-text ul li .music-container .price-image img {
+  width: 40px;
+  height: 40px;
+}
+main .container .main-text ul li .music-container .change {
+  margin-right: 2rem;
+}
+main .container .main-text ul li .music-container .change h2 {
+  color: hsl(245, 75%, 52%);
+  font-size: 1.1rem;
+  font-weight: 900;
+  text-decoration: underline;
+  cursor: pointer;
+}
+main .container .main-text ul li .music-container .change h2:hover {
+  color: hsl(223, 47%, 23%);
+  text-decoration: none;
+}
+main .container .main-text ul li button {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  width: 78%;
+  margin: 2.88rem auto 2.5rem auto;
+  padding: 1.2rem 1.14rem 1.14rem 1.14rem;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0px 15px 20px hsla(233, 57%, 82%, 0.542);
+  cursor: pointer;
+}
+main .container .main-text ul li button:hover {
+  background-color: hsl(245, 83%, 68%);
+}
+main .container .main-text ul li h3 {
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 3.5rem;
+  cursor: pointer;
+}
+main .container .main-text ul li h3:hover {
+  color: hsl(223, 47%, 23%);
+}/*# sourceMappingURL=style.css.map */
