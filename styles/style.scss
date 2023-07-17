@@ -22,9 +22,9 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   font-family: "Red Hat Display", sans-serif;
-
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 ul {
@@ -38,7 +38,6 @@ Main Code
 =======*/
 
 main {
-  margin-top: 5%;
   width: 36rem;
 
   .container {
